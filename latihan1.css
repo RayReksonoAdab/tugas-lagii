@@ -1,0 +1,79 @@
+.body {
+    padding: 0 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px
+}
+
+.container .menu-kiri{
+    background: red;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 20px 0 20px;
+}
+
+.container .menu-tengah {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.container .menu-tengah {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container .menu-tengah a.active {
+    font-weight: bold;
+}
+
+.container .menu-kanan {
+    background: blue;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px 0 20px 0;   
+}
+
+.hero {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-1 {
+    width: 50%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.box-2 {
+    width: 50%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.footer {
+    background: lightcoral;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 30px ;
+}
+
